@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -101,4 +102,57 @@ li {
     min-height: 1;
     max-width: 100%;
     max-height: 100%;
+}
+
+.fb-item-1 h1{
+    color: hsl(240, 89%, 11%);
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+.fb-item-1 p {
+    color:  hsl(236, 13%, 42%);
+    font-size: 0.9rem;
+    word-wrap: normal;
+}
+
+.fb-item-1 button {
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400px;
+    font-size: x-small;
+    padding: 7px 15px;
+    margin-top: 15px;
+}
+
+.fb-item-2 {
+    background-color: hsl(240, 89%, 11%);
+    padding: 13px;
+}
+
+.fb-item-2 div {
+    padding: 10px 10px 10px 0;
+}
+
+.fb-item-2 h2 {
+    color: hsl(35, 77%, 62%);
+    font-size: 1.5;
+}
+
+.fb-item-2 h3 {
+    color: hsl(36, 100%, 99%);
+    margin: 5px 5px 5px 0;
+    font-size: 1rem;
+}
+
+.fb-item-2 p {
+    color:hsl(233, 8%, 79%);
+    font-size: 0.9rem;
+}
+
+.fb-item-2 hr {
+    margin: 10px 0 10px 0;
 }
